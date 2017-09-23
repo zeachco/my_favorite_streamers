@@ -1,0 +1,37 @@
+{
+  "name": "workspace",
+  "version": "0.0.1",
+  "description": "Multiple Streaming feed view",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeachco/my_favorite_streamers.git"
+  },
+  "keywords": [
+    "stream"
+  ],
+  "author": "Olivier Rousseau, Luc Dupuis, Carlyle Denis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeachco/my_favorite_streamers/issues"
+  },
+  "homepage": "https://github.com/zeachco/my_favorite_streamers#readme",
+  "dependencies": {
+    "auto-bind-es5": "^1.1.0",
+    "mobx-react": "^4.3.2",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-icons": "^2.2.5",
+    "react-scripts": "^1.0.13",
+    "styled-components": "^2.1.2",
+    "vue": "^2.4.4"
+  }
+}
